@@ -1,0 +1,47 @@
+.gom-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 20, 20, 0.45);
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+}
+
+.gom-card {
+  background: #faf8ef;
+  color: #776e65;
+  border-radius: 10px;
+  min-width: 300px;
+  padding: 20px 22px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.gom-title {
+  margin: 0 0 16px;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.gom-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gom-btn {
+  background: #8f7a66;
+  color: #f9f6f2;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gom-btn:hover { filter: brightness(1.05); }
+
+.gom-outline {
+  background: transparent;
+  border: 2px solid #8f7a66;
+  color: #8f7a66;
+}

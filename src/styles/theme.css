@@ -1,0 +1,51 @@
+@media (prefers-color-scheme: dark) {
+  :root[data-theme="auto"] {
+    --bg: #0f0f12;
+    --text: #e6e6e6;
+    --panel: #2a2a31;
+    --panel-text: #f2f2f2;
+
+    --t-empty: #3a3840;
+    --t-2: #3b3a43;
+    --t-4: #44414e;
+    --t-8: #915a3b;
+    --t-16: #a55b3a;
+    --t-32: #b24c3a;
+    --t-64: #c2392f;
+    --t-128: #8d7a32;
+    --t-256: #8b7a2b;
+    --t-512: #8a7923;
+    --t-1024: #89791b;
+    --t-2048: #887814;
+
+    --btn-bg: #3c3545;
+    --btn-fg: #eae6f2;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0f0f12;
+  --text: #e6e6e6;
+  --panel: #2a2a31;
+  --panel-text: #f2f2f2;
+
+  --t-empty: #3a3840;
+  --t-2: #3b3a43;
+  --t-4: #44414e;
+  --t-8: #915a3b;
+  --t-16: #a55b3a;
+  --t-32: #b24c3a;
+  --t-64: #c2392f;
+  --t-128: #8d7a32;
+  --t-256: #8b7a2b;
+  --t-512: #8a7923;
+  --t-1024: #89791b;
+  --t-2048: #887814;
+
+  --btn-bg: #3c3545;
+  --btn-fg: #eae6f2;
+}
+
+:root[data-theme="light"] {
+  /* Nothing needed: light tokens already defined in variables.css */
+}

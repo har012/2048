@@ -1,0 +1,18 @@
+@keyframes tile-pop {
+  0%   { transform: scale(0.9); opacity: 0.5; }
+  100% { transform: scale(1.0); opacity: 1; }
+}
+
+@keyframes tile-bump {
+  0%   { transform: scale(1.0); }
+  50%  { transform: scale(1.06); }
+  100% { transform: scale(1.0); }
+}
+
+.tile:not(.tile-empty) {
+  animation: tile-pop 120ms ease-out;
+}
+
+.tile-merged {
+  animation: tile-bump 140ms ease-out;
+}

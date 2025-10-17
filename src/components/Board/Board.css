@@ -1,0 +1,26 @@
+.board-wrap {
+  display: inline-grid;
+  grid-auto-rows: calc(var(--tile-size) + var(--board-gap));
+  gap: var(--board-gap);
+  padding: var(--board-padding);
+  border-radius: var(--board-radius);
+  background: var(--panel);
+}
+
+.board-row {
+  display: grid;
+  grid-template-columns: repeat(4, var(--tile-size));
+  gap: var(--board-gap);
+}
+
+.board-cell {
+  width: var(--tile-size);
+  height: var(--tile-size);
+}
+
+@media (max-width: 420px) {
+  :root {
+    --tile-size: 64px;
+    --tile-font: 22px;
+  }
+}

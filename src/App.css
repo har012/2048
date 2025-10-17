@@ -1,0 +1,17 @@
+.app-shell {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background: #faf8ef;
+  color: #776e65;
+}
+
+.app-header {
+  padding: 16px 20px;
+}
+
+.app-main {
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+}

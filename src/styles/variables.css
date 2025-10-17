@@ -1,0 +1,46 @@
+:root {
+  /* 2048 palette */
+  --bg: #faf8ef;
+  --text: #776e65;
+  --panel: #bbada0;
+  --panel-text: #f9f6f2;
+
+  /* Board */
+  --board-gap: 10px;
+  --board-padding: 10px;
+  --board-radius: 8px;
+
+  /* Tiles */
+  --tile-size: 80px;
+  --tile-radius: 6px;
+  --tile-font: 24px;
+  --tile-weight: 700;
+
+  /* Tile colors */
+  --t-empty: #cdc1b4;
+  --t-2: #eee4da;
+  --t-4: #ede0c8;
+  --t-8: #f2b179;
+  --t-16: #f59563;
+  --t-32: #f67c5f;
+  --t-64: #f65e3b;
+  --t-128: #edcf72;
+  --t-256: #edcc61;
+  --t-512: #edc850;
+  --t-1024: #edc53f;
+  --t-2048: #edc22e;
+
+  /* Layout */
+  --space-1: 8px;
+  --space-2: 12px;
+  --space-3: 16px;
+  --space-4: 20px;
+
+  /* Buttons */
+  --btn-bg: #8f7a66;
+  --btn-fg: #f9f6f2;
+  --btn-radius: 8px;
+
+  /* Z-index */
+  --z-modal: 1000;
+}

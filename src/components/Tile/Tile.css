@@ -1,0 +1,49 @@
+.tile {
+  width: var(--tile-size);
+  height: var(--tile-size);
+  border-radius: var(--tile-radius);
+  display: grid;
+  place-items: center;
+  font-weight: var(--tile-weight);
+  font-size: var(--tile-font);
+  user-select: none;
+  will-change: transform;
+}
+
+.tile-empty {
+  background: var(--t-empty);
+}
+
+.tile-2 {
+  background: var(--t-2);    color: var(--text);
+}
+.tile-4 {
+  background: var(--t-4);    color: var(--text);
+}
+.tile-8 {
+  background: var(--t-8);    color: var(--panel-text);
+}
+.tile-16 {
+  background: var(--t-16);    color: var(--panel-text);
+}
+.tile-32 {
+  background: var(--t-32);   color: var(--panel-text);
+}
+.tile-64 {
+  background: var(--t-64);   color: var(--panel-text);
+}
+.tile-128 {
+  background: var(--t-128);  color: var(--panel-text); font-size: 22px;
+}
+.tile-256 {
+  background: var(--t-256);  color: var(--panel-text); font-size: 22px;
+}
+.tile-512 {
+  background: var(--t-512);  color: var(--panel-text); font-size: 22px;
+}
+.tile-1024 {
+  background: var(--t-1024); color: var(--panel-text); font-size: 20px;
+}
+.tile-2048 {
+  background: var(--t-2048); color: var(--panel-text); font-size: 20px;
+}

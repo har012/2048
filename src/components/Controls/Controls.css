@@ -1,0 +1,44 @@
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.controls button {
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border: none;
+  border-radius: var(--btn-radius);
+  padding: 8px 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  filter: brightness(1.05);
+}
+
+.hint {
+  font-size: 12px; opacity: 0.7;
+}
+
+.theme-group {
+  display: inline-flex;
+  gap: 6px;
+  background: var(--panel);
+  border-radius: 999px;
+  padding: 4px;
+}
+
+.theme-group > button {
+  background: transparent;
+  color: var(--panel-text);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.theme-group > button.active {
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+}

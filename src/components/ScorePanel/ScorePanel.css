@@ -1,0 +1,19 @@
+.score-panel {
+  display: flex;
+  gap: 10px;
+}
+
+.score-box {
+  background: #bbada0;
+  color: #f9f6f2;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 90px;
+}
+.score-box .label {
+    font-size: 12px; opacity: 0.9;
+}
+.score-box .value {
+    font-size: 20px; font-weight: 700;
+}

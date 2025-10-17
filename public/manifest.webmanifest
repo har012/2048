@@ -1,0 +1,9 @@
+{
+  "name": "2048",
+  "short_name": "2048",
+  "start_url": ".",
+  "display": "standalone",
+  "icons": [],
+  "theme_color": "#faf8ef",
+  "background_color": "#faf8ef"
+}

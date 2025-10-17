@@ -1,0 +1,8 @@
+export const ACT = {
+  NEW_GAME: 'NEW_GAME',
+  MOVE: 'MOVE',
+  UNDO: 'UNDO',
+  SET_BOARD: 'SET_BOARD',
+  SET_SCORE: 'SET_SCORE',
+  DISMISS_WIN: 'DISMISS_WIN',
+};
