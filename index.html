@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/2048/assets/2048logo-CcRJzk7e.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048</title>
+    <script>
+      try {
+        var m = localStorage.getItem('theme-mode') || 'auto';
+        document.documentElement.setAttribute('data-theme', m);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'auto');
+      }
+    </script>
+    <script type="module" crossorigin src="/2048/assets/index-D7D0O2z8.js"></script>
+    <link rel="stylesheet" crossorigin href="/2048/assets/index-BY4D_BpM.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
