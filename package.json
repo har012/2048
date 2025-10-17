@@ -1,6 +1,7 @@
 {
   "name": "2048",
   "private": true,
+  "homepage": "https://har012.github.io/2048",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +11,9 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
@@ -25,6 +28,7 @@
     "eslint": "^9.37.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
+    "gh-pages": "^6.3.0",
     "globals": "^16.4.0",
     "jsdom": "^27.0.0",
     "prettier": "^3.6.2",
